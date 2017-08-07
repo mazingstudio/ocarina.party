@@ -94,6 +94,39 @@ kbd {
   border-width:0;
 }
 
+/* TEXT BOX */
+section#TextBox {
+  background-color:#1d1d1d;
+  opacity:0.8;
+  width:50vw;
+  height:100px;
+  border-radius:25px;
+  opacity: 0;
+}
+
+section#TextBox > p {
+  font-family:Chiaro,monospace;
+  font-size:1.4rem;
+  color:white;
+  text-align:center;
+  text-shadow: 3px 4px 1px black;
+}
+
+.fadeIn {
+  -webkit-animation: fadeinout 7s ease-out backwards;
+  animation: fadeinout 7s ease-out backwards;
+}
+
+@-webkit-keyframes fadeinout {
+  10% { opacity: 0.8; }
+  90% { opacity: 0.8; }
+}
+
+@keyframes fadeinout {
+  10% { opacity: 0.8; }
+  90% { opacity: 0.8; }
+}
+
 /* FOOTER */
 footer {
   background-color:#0b162b;

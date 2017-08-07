@@ -1,8 +1,16 @@
 import React, { Component } from 'react';
-import './App.css';
+import CPad from './CPad';
+import Button from './Button';
+import './../App.css';
 
-class Pentagram extends Component {
+export default class Pentagram extends Component {
   render() {
-    
+    return (
+      <section id="Pentagram">
+        <div id="clef"></div>
+        <CPad />
+        <Button keyboard="G" id="a" dataKey="103" />
+      </section>
+    )
   }
 }

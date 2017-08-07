@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
-import './App.css';
+import './../App.css';
 
-class Button extends Component {
-  function formButton() {
-
-  }
-
+export default class Button extends Component {
   render() {
     return (
-      <div class="button" id="up" data-key="119">
-        <kbd>W</kbd>
+      <div className="button" id={this.props.id} data-key={this.props.dataKey}>
+        <kbd>{this.props.keyboard}</kbd>
       </div>
     )
   }

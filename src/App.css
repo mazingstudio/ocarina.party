@@ -1,24 +1,50 @@
-.App {
-  text-align: center;
+/* GENERAL */
+@font-face {
+  font-family: Chiaro;
+  src: url("./fonts/ChiaroStd-B.otf");
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+@font-face {
+  font-family: ReturnOfGanon;
+  src:url("./fonts/ReturnofGanon.ttf");
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+body {
+  background-image:url("./images/bg.png");
+  background-color:black;
+  background-repeat:no-repeat;
+  background-position-x: center;
+
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;*/
 }
 
-.App-intro {
-  font-size: large;
+/* FOOTER */
+footer {
+  background-color:#0b162b;
+  position:fixed;
+  width:100%;
+  bottom:0;
+  opacity:0.8;
+
+  color:white;
+  text-align:center;
+  font-family:Chiaro, monospace;
+  font-size:1.2rem;
+  text-shadow: 3px 4px 1px black;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+#pixel-heart {
+  background-image:url("./images/pixel-heart.png");
+  width: 16px;
+  height: 16px;
+  background-size: cover;
+  display: inline-block;
+}
+
+footer > p > a {
+  color:#f20000;
+  text-decoration:none;
 }

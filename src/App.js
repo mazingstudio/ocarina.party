@@ -5,6 +5,7 @@ import TextBox from './components/TextBox';
 
 import Instrument from './components/audio/Instrument';
 import Soundtrack from './components/audio/Soundtrack';
+import SoundBank from './components/audio/SoundBank';
 
 import logo from './logo.svg';
 import './App.css';
@@ -15,8 +16,11 @@ class App extends Component {
       <div className="App">
         <Pentagram />
         <TextBox />
+
         <Instrument name="ocarina" />
         <Soundtrack />
+        <SoundBank />
+        
         <Footer />
       </div>
     );

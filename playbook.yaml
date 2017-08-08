@@ -1,0 +1,26 @@
+---
+- hosts: "{{ host | default('dev') }}"
+  remote_user: root
+
+  tasks:
+
+  - name: prepare
+    command: mkdir -p /home/deploy/projects/aniraco
+
+  - name: upload
+    synchronize:
+      src: ./
+      dest: /home/deploy/projects/aniraco
+      rsync_opts:
+        - "--verbose"
+        - "--delete"
+        - "--exclude=.git"
+        - "--exclude=src"
+        - "--exclude=node_modules"
+        - "--exclude=*.sw?"
+        - "--exclude=*.retry"
+
+  - name: build
+    command: chdir=/home/deploy/projects/aniraco {{ item }}
+    with_items:
+      - make docker-run

@@ -1,0 +1,9 @@
+[all]
+dev       ansible_ssh_host=aniraco.dev.mazing.studio
+prod       ansible_ssh_host=ocarina.blue
+
+[dev]
+dev       ansible_ssh_host=aniraco.dev.mazing.studio
+
+[prod]
+prod       ansible_ssh_host=ocarina.blue

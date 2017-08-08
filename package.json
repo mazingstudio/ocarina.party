@@ -1,6 +1,7 @@
 {
   "name": "aniraco",
-  "version": "0.1.0",
+  "homepage": "https://aniraco.dev.mazing.studio",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "react": "^15.6.1",

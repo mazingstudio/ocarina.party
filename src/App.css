@@ -394,18 +394,20 @@ footer > p > a {
     z-index:0;
     position: fixed;
     margin-top: -150px;
-    background-color: #1d1d1d;
     width: 60vw;
     height: 100px;
-    border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items:center;
   }
 
   @keyframes fadeinout {
-    10% { opacity: 0.9; }
-    90% { opacity: 0.9; }
+    10% { opacity: 0.9; z-index:666;}
+    90% { opacity: 0.9; z-index:666; }
+  }
+
+  #c-pad {
+    z-index: 333;
   }
 }
 
@@ -422,3 +424,35 @@ footer > p > a {
     z-index: 333;
   }
 }
+
+@media only screen and (min-width : 991px) and (max-width : 1366px){
+  body {
+    background-size: 150%;
+  }
+  section#Pentagram {
+    zoom:150%;
+  }
+
+  #c-pad {
+    z-index: 333;
+  }
+  @keyframes fadeinout {
+    10% { opacity: 0.9; z-index:666; }
+    90% { opacity: 0.9; z-index:666; }
+  }
+
+  section#TextBox {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+
+  #clef {
+    width:130px;
+  }
+}
+
+/*@media only screen and (orientation:portrait){
+  section
+}*/

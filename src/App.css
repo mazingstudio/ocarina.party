@@ -9,6 +9,8 @@
   src:url("./fonts/ReturnofGanon.ttf");
 }
 
+section#Portrait {visibility: hidden;}
+
 body {
   background-image:url("./images/bg.png");
   background-color:black;

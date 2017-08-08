@@ -6,7 +6,7 @@ export default class Song extends Component {
     function songId(songName) {return songName.toLowerCase().split(" ").join("-")}
 
     return (
-      <audio src={"./static/sounds/songs/" + songFileName(this.props.songName) + ".mp3"}
+      <audio src={"/sounds/songs/" + songFileName(this.props.songName) + ".mp3"}
              data-song-name={songId(this.props.songName)}></audio>
     )
   }

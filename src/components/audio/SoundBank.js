@@ -6,8 +6,8 @@ export default class SoundBank extends Component {
 
     return (
       <div>
-        <Sound fileName="Sound_Correct.wav" id="correct" />
-        <Sound fileName="Sound_Error.wav" id="wrong" />
+        <Sound fileName="Song_Correct.wav" id="correct" />
+        <Sound fileName="Song_Error.wav" id="wrong" />
       </div>
     )
   }

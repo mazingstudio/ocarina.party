@@ -4,7 +4,7 @@ export default class Sound extends Component {
   render() {
 
     return (
-      <audio src={"./static/sounds/" + this.props.fileName} data-sound={this.props.Id}></audio>
+      <audio src={"/sounds/" + this.props.fileName} data-sound={this.props.id}></audio>
     )
   }
 }

@@ -389,4 +389,22 @@ footer > p > a {
     margin-left:0;
     margin-right:1vw;
   }
+
+  section#TextBox {
+    z-index:0;
+    position: fixed;
+    margin-top: -150px;
+    background-color: #1d1d1d;
+    width: 60vw;
+    height: 100px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+
+  @keyframes fadeinout {
+    10% { opacity: 0.9; }
+    90% { opacity: 0.9; }
+  }
 }

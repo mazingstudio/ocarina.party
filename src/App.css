@@ -374,3 +374,19 @@ footer > p > a {
   color:#f20000;
   text-decoration:none;
 }
+
+/* PHONES */
+@media only screen and (min-width : 480px) and (max-width : 990px) {
+  #Link {
+    width: 150px;
+    height: 350px;
+    bottom: -170px;
+    background-size:contain;
+  }
+
+  #clef {
+    width: 70px;
+    margin-left:0;
+    margin-right:1vw;
+  }
+}

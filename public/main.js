@@ -4,6 +4,15 @@ const song = ""
 const correctSongSound = document.querySelector('audio[data-sound="correct"]')
 const wrongSongSound = document.querySelector('audio[data-sound="wrong"]')
 
+function supportMobile() {
+  const buttons = document.querySelectorAll("div.button")
+  for (var i = 0; i < buttons.length; i++) {
+    const button = buttons[i]
+    button.addEventListener("click", function() {play(button.dataset.key)})
+  }
+}
+supportMobile()
+
 function play(keyPressed) {
   const audio = document.querySelector(`audio[data-key="${keyPressed}"]`)
   const button = document.querySelector(`div[data-key="${keyPressed}"]`)

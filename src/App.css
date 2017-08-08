@@ -128,18 +128,12 @@ section#TextBox > p {
 }
 
 .fadeIn {
-  -webkit-animation: fadeinout 7s ease-out backwards;
   animation: fadeinout 7s ease-out backwards;
 }
 
-@-webkit-keyframes fadeinout {
-  10% { opacity: 0.6; }
-  90% { opacity: 0.6; }
-}
-
 @keyframes fadeinout {
-  10% { opacity: 0.6; }
-  90% { opacity: 0.6; }
+  10% { opacity: 0.8; }
+  90% { opacity: 0.8; }
 }
 
 /* LINK */

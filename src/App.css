@@ -14,6 +14,7 @@ body {
   background-color:black;
   background-repeat:no-repeat;
   background-position-x: center;
+  background-size:cover;
 
   display: flex;
   flex-direction: column;
@@ -128,6 +129,38 @@ section#TextBox > p {
 @keyframes fadeinout {
   10% { opacity: 0.8; }
   90% { opacity: 0.8; }
+}
+
+/* LINK */
+#Link {
+  background-image:url("/images/link.png");
+  width: 300px;
+  height: 550px;
+  background-repeat: no-repeat;
+  position: fixed;
+  bottom: -150px;
+  left:300px;
+  background-position: center;
+}
+
+.playingOcarina {
+  -webkit-animation: joyful 7s linear backwards;
+  animation: joyful 7s linear backwards;
+}
+
+@-webkit-keyframes joyful {
+  10% { bottom:-156px; left:306px; }
+  16% { bottom:-150px; left:300px; }
+  24% { bottom:-156px; left:296px; }
+  32% { bottom:-150px; left:300px; }
+  40% { bottom:-156px; left:306px; }
+  48% { bottom:-150px; left:300px; }
+  56% { bottom:-156px; left:296px; }
+  64% { bottom:-150px; left:300px; }
+  72% { bottom:-156px; left:306px; }
+  80% { bottom:-150px; left:300px; }
+  88% { bottom:-156px; left:296px; }
+  96% { bottom:-150px; left:300px; }
 }
 
 /* FOOTER */

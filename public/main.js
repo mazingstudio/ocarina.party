@@ -1,3 +1,4 @@
+const link = document.getElementById('Link')
 let notes = []
 const song = ""
 const correctSongSound = document.querySelector('audio[data-sound="correct"]')
@@ -31,8 +32,14 @@ function playAudio(audio) {
 
 function playMatchedSong(song, name) {
   playAudio(correctSongSound)
-  setTimeout(function(){playAudio(song)}, 1000)
+  setTimeout(function(){makeLinkPlaySong(song)}, 1000)
   showSongName(name)
+}
+
+function makeLinkPlaySong(song) {
+  playAudio(song)
+  link.classList.add("playingOcarina")
+  setTimeout(function(){link.classList.remove("playingOcarina")}, 7000)
 }
 
 function showSongName(name) {

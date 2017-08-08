@@ -102,6 +102,9 @@ section#TextBox {
   height:100px;
   border-radius:25px;
   opacity: 0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 
 section#TextBox > p {

@@ -170,10 +170,10 @@ section#TextBox > p {
 
 /* FAIRIES */
 .fairy {
-  padding:100px;
+  padding:10px;
   position: absolute;
-  width: 200px;
-  height: 200px;
+  width: 20px;
+  height: 20px;
   transform-style: preserve-3d;
   animation-iteration-count: infinite;
   animation-timing-function: linear;

@@ -107,6 +107,7 @@ kbd {
 
 /* TEXT BOX */
 section#TextBox {
+  z-index:666;
   background-color:#1d1d1d;
   opacity:0.8;
   width:50vw;
@@ -171,6 +172,183 @@ section#TextBox > p {
   80% { bottom:-150px; left:300px; }
   88% { bottom:-156px; left:296px; }
   96% { bottom:-150px; left:300px; }
+}
+
+/* FAIRIES */
+.fairy {
+  padding:100px;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction:alternate;
+}
+
+/* TATL */
+#Tatl {
+  animation-name: tatl-flight;
+  animation-duration: 6s;
+}
+
+@keyframes tatl-flight {
+  0% {
+    transform: rotateY(-90deg);
+    transform: rotateZ(-40deg);
+  }
+  40% {
+    transform: rotateY(-20deg);
+    transform: rotateZ(-80deg);
+    transform: scale(1.8);
+  }
+  100% {
+    transform: rotateY(100deg);
+    transform: rotateZ(20deg);
+  }
+}
+@keyframes tatl-rotate {
+  0% {
+    transform: rotateY(90deg);
+    transform: rotateZ(40deg);
+  }
+  40% {
+    transform: rotateY(20deg);
+    transform: rotateZ(80deg);
+  }
+  100% {
+    transform: rotateY(-100deg);
+    transform: rotateZ(-20deg);
+  }
+}
+
+#Tatl::after {
+  position: absolute;
+  top: 2px;
+  left: 200px;
+  display: block;
+  width: 22px;
+  height: 22px;
+  background: #fffefb;
+  box-shadow: 0 0 15px #d0da27;
+  border-radius: 40px;
+  content: "";
+  transform: rotateZ(40deg);
+  transform-style: preserve-3d;
+  animation-name: tatl-rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: alternate-reverse;
+}
+
+/* TAEL */
+#Tael {
+  animation-name: tael-flight;
+  animation-duration: 8s;
+}
+
+@keyframes tael-flight {
+  0% {
+    transform: rotateY(-90deg);
+    transform: rotateZ(-40deg);
+    transform: scale(0.4);
+  }
+  40% {
+    transform: rotateY(-110deg);
+    transform: rotateZ(40deg);
+  }
+  100% {
+    transform: rotateY(-150deg);
+    transform: rotateZ(20deg);
+  }
+}
+@keyframes tael-rotate {
+  0% {
+    transform: rotateY(90deg);
+    transform: rotateZ(40deg);
+  }
+  40% {
+    transform: rotateY(110deg);
+    transform: rotateZ(-40deg);
+  }
+  100% {
+    transform: rotateY(-150deg);
+    transform: rotateZ(-20deg);
+  }
+}
+
+#Tael::after {
+  position: absolute;
+  top: 80px;
+  left: -80px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: #454499;
+  box-shadow: 0 0 15px #671750;
+  border-radius: 40px;
+  content: "";
+  transform: rotateZ(40deg);
+  transform-style: preserve-3d;
+  animation-name: tael-rotate;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: alternate;
+}
+
+/* NAVI */
+#Navi {
+  animation-name: navi-flight;
+  animation-duration: 5s;
+}
+
+@keyframes navi-flight {
+  0% {
+    transform: rotateY(-90deg);
+    transform: rotateZ(-40deg);
+  }
+  40% {
+    transform: rotateY(-90deg);
+    transform: rotateZ(-80deg);
+  }
+  100% {
+    transform: rotateY(-150deg);
+    transform: rotateZ(20deg);
+    transform: scale(1.4);
+  }
+}
+@keyframes navi-rotate {
+  0% {
+    transform: rotateY(90deg);
+    transform: rotateZ(40deg);
+  }
+  40% {
+    transform: rotateY(90deg);
+    transform: rotateZ(80deg);
+  }
+  100% {
+    transform: rotateY(-150deg);
+    transform: rotateZ(-20deg);
+  }
+}
+
+#Navi::after {
+  position: absolute;
+  top: 20px;
+  left: 400px;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: #b9ffff;
+  box-shadow: 0 0 15px #00e5ff;
+  border-radius: 40px;
+  content: "";
+  transform: rotateZ(40deg);
+  transform-style: preserve-3d;
+  animation-name: navi-rotate;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: alternate-reverse;
 }
 
 /* FOOTER */

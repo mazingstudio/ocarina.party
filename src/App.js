@@ -14,13 +14,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className="fairy" id="Tael"></div>
         <Pentagram />
         <TextBox />
 
         <Instrument name="ocarina" />
         <Soundtrack />
         <SoundBank />
+        <div className="fairy" id="Navi"></div>
         <div id="Link"></div>
+        <div className="fairy" id="Tatl"></div>
         <Footer />
       </div>
     );

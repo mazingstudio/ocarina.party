@@ -7,7 +7,6 @@ import Instrument from './components/audio/Instrument';
 import Soundtrack from './components/audio/Soundtrack';
 import SoundBank from './components/audio/SoundBank';
 
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {

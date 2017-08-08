@@ -24,6 +24,9 @@ class App extends Component {
         <div id="Link"></div>
         <div className="fairy" id="Tatl"></div>
         <Footer />
+        <section id="Portrait">
+          <p>Please rotate <span>your device</span>!</p>
+        </section>
       </div>
     );
   }

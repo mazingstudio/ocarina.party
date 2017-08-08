@@ -453,6 +453,39 @@ footer > p > a {
   }
 }
 
-/*@media only screen and (orientation:portrait){
-  section
-}*/
+@media only screen and (orientation:portrait){
+  * {visibility:hidden;}
+  body {
+    background-size: 450%
+  }
+  #Link {
+    visibility:visible;
+    left:20%;
+    zoom:150%;
+  }
+  section#Portrait {
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background-color:#0b162b;
+    display: inline-block;
+    opacity:0.6;
+    position:fixed;
+    visibility:visible;
+  }
+
+  section#Portrait > p {
+    color:white;
+    font-family:Chiaro, monospace;
+    text-align: center;
+    font-size:2rem;
+    visibility:visible;
+    text-shadow: 3px 4px 1px black;
+  }
+
+  section#Portrait > p > span {
+    color:red;
+    visibility:visible;
+  }
+}

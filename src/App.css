@@ -408,3 +408,17 @@ footer > p > a {
     90% { opacity: 0.9; }
   }
 }
+
+@media only screen and (min-width : 768px) and (max-width : 990px){
+  body {
+    background-size: 150%;
+  }
+
+  section#Pentagram {
+    zoom:150%;
+  }
+
+  #c-pad {
+    z-index: 333;
+  }
+}

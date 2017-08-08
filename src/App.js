@@ -20,7 +20,6 @@ class App extends Component {
         <Instrument name="ocarina" />
         <Soundtrack />
         <SoundBank />
-
         <Footer />
       </div>
     );

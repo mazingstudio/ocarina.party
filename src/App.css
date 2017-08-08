@@ -15,10 +15,10 @@ body {
   background-repeat:no-repeat;
   background-position-x: center;
 
-  /*display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;*/
+  align-items: center;
 }
 
 /* PENTAGRAM */
@@ -133,6 +133,7 @@ footer {
   position:fixed;
   width:100%;
   bottom:0;
+  left:0;
   opacity:0.8;
 
   color:white;

@@ -86,11 +86,7 @@
 ![](./src/images/C-Right.png)
 
 ## Running
-```
-npm install && npm start
-
-><}}*> npm install; and npm start
-```
+`$ make`
 
 ## Contributing
 You can find Zelda songs and sound effects in sound banks like [this one](http://noproblo.dayjo.org/ZeldaSounds/).
@@ -121,11 +117,8 @@ I thought of adding Link's transformations ([Zora](https://i.ytimg.com/vi/VSZqPV
 
 ### "Deploying"
 Github Pages is configured to serve files from the `/docs` folder. It seems that it cannot be changed the source folder name, so you should follow these hacky steps before submitting a PR:
-```
-npm run build && mv build docs && cp CNAME docs
 
-><}}*> npm run build; and mv build docs; and cp CNAME docs
-```
+`$ make build`
 
 ## Credits
 * Sound Effects: [Zelda Sounds by HTW](http://noproblo.dayjo.org/ZeldaSounds/)

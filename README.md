@@ -6,84 +6,84 @@
 
 ## Available Songs
 ### [Song of Storms](https://www.youtube.com/watch?v=KeIVybmTgWg&t=2s)
-![](./public/images/Button-A.png)
-![](./public/images/C-Down.png)
-![](./public/images/C-Up.png)
-![](./public/images/Button-A.png)
-![](./public/images/C-Down.png)
-![](./public/images/C-Up.png)
+![](./src/images/Button-A.png)
+![](./src/images/C-Down.png)
+![](./src/images/C-Up.png)
+![](./src/images/Button-A.png)
+![](./src/images/C-Down.png)
+![](./src/images/C-Up.png)
 
 ### [Song of Healing](https://www.youtube.com/watch?v=WXnWfx6bIVE)
-![](./public/images/C-Left.png)
-![](./public/images/C-Right.png)
-![](./public/images/C-Down.png)
-![](./public/images/C-Left.png)
-![](./public/images/C-Right.png)
-![](./public/images/C-Down.png)
+![](./src/images/C-Left.png)
+![](./src/images/C-Right.png)
+![](./src/images/C-Down.png)
+![](./src/images/C-Left.png)
+![](./src/images/C-Right.png)
+![](./src/images/C-Down.png)
 
 ### [Song of Soaring](https://www.youtube.com/watch?v=IwdtnP3t3sA)
-![](./public/images/C-Down.png)
-![](./public/images/C-Left.png)
-![](./public/images/C-Up.png)
-![](./public/images/C-Down.png)
-![](./public/images/C-Left.png)
-![](./public/images/C-Up.png)
+![](./src/images/C-Down.png)
+![](./src/images/C-Left.png)
+![](./src/images/C-Up.png)
+![](./src/images/C-Down.png)
+![](./src/images/C-Left.png)
+![](./src/images/C-Up.png)
 
 ### [Song of Time](https://www.youtube.com/watch?v=ulwcsUAPfgc)
-![](./public/images/C-Right.png)
-![](./public/images/Button-A.png)
-![](./public/images/C-Down.png)
-![](./public/images/C-Right.png)
-![](./public/images/Button-A.png)
-![](./public/images/C-Down.png)
+![](./src/images/C-Right.png)
+![](./src/images/Button-A.png)
+![](./src/images/C-Down.png)
+![](./src/images/C-Right.png)
+![](./src/images/Button-A.png)
+![](./src/images/C-Down.png)
 
 ### [Inverted Song of Time](https://www.youtube.com/watch?v=qoo_YBlEl6g)
-![](./public/images/C-Down.png)
-![](./public/images/Button-A.png)
-![](./public/images/C-Right.png)
-![](./public/images/C-Down.png)
-![](./public/images/Button-A.png)
-![](./public/images/C-Right.png)
+![](./src/images/C-Down.png)
+![](./src/images/Button-A.png)
+![](./src/images/C-Right.png)
+![](./src/images/C-Down.png)
+![](./src/images/Button-A.png)
+![](./src/images/C-Right.png)
 
 ### [Song of Double Time](https://www.youtube.com/watch?v=bNvQv3u9ylE)
-![](./public/images/C-Right.png)
-![](./public/images/C-Right.png)
-![](./public/images/Button-A.png)
-![](./public/images/Button-A.png)
-![](./public/images/C-Down.png)
-![](./public/images/C-Down.png)
+![](./src/images/C-Right.png)
+![](./src/images/C-Right.png)
+![](./src/images/Button-A.png)
+![](./src/images/Button-A.png)
+![](./src/images/C-Down.png)
+![](./src/images/C-Down.png)
 
 ### [Saria's Song](https://www.youtube.com/watch?v=eJWupfLLP1Q)
-![](./public/images/C-Down.png)
-![](./public/images/C-Right.png)
-![](./public/images/C-Left.png)
-![](./public/images/C-Down.png)
-![](./public/images/C-Right.png)
-![](./public/images/C-Left.png)
+![](./src/images/C-Down.png)
+![](./src/images/C-Right.png)
+![](./src/images/C-Left.png)
+![](./src/images/C-Down.png)
+![](./src/images/C-Right.png)
+![](./src/images/C-Left.png)
 
 ### [Epona's Song](https://www.youtube.com/watch?v=sCRk0WDlreo)
-![](./public/images/C-Up.png)
-![](./public/images/C-Left.png)
-![](./public/images/C-Right.png)
-![](./public/images/C-Up.png)
-![](./public/images/C-Left.png)
-![](./public/images/C-Right.png)
+![](./src/images/C-Up.png)
+![](./src/images/C-Left.png)
+![](./src/images/C-Right.png)
+![](./src/images/C-Up.png)
+![](./src/images/C-Left.png)
+![](./src/images/C-Right.png)
 
 ### [Sun's Song](https://www.youtube.com/watch?v=OM-GSC1oqnE)
-![](./public/images/C-Right.png)
-![](./public/images/C-Down.png)
-![](./public/images/C-Up.png)
-![](./public/images/C-Right.png)
-![](./public/images/C-Down.png)
-![](./public/images/C-Up.png)
+![](./src/images/C-Right.png)
+![](./src/images/C-Down.png)
+![](./src/images/C-Up.png)
+![](./src/images/C-Right.png)
+![](./src/images/C-Down.png)
+![](./src/images/C-Up.png)
 
 ### [Zelda's Lullaby](https://www.youtube.com/watch?v=UpfYSyiyf2U)
-![](./public/images/C-Left.png)
-![](./public/images/C-Up.png)
-![](./public/images/C-Right.png)
-![](./public/images/C-Left.png)
-![](./public/images/C-Up.png)
-![](./public/images/C-Right.png)
+![](./src/images/C-Left.png)
+![](./src/images/C-Up.png)
+![](./src/images/C-Right.png)
+![](./src/images/C-Left.png)
+![](./src/images/C-Up.png)
+![](./src/images/C-Right.png)
 
 ## Running
 ```
@@ -100,11 +100,11 @@ You can find Zelda songs and sound effects in sound banks like [this one](http:/
 2. Add song reference to `src/components/audio/Soundtrack.js`.
 3. Add song keys to `matchSong()` in `public/main.js`.
 
-  * ![](./public/images/C-Up.png) -> 119
-  * ![](./public/images/C-Left.png) -> 97
-  * ![](./public/images/C-Down.png) -> 115
-  * ![](./public/images/C-Right.png) -> 100
-  * ![](./public/images/Button-A.png) -> 103
+  * ![](./src/images/C-Up.png) -> 119
+  * ![](./src/images/C-Left.png) -> 97
+  * ![](./src/images/C-Down.png) -> 115
+  * ![](./src/images/C-Right.png) -> 100
+  * ![](./src/images/Button-A.png) -> 103
 
 _PRs that solve the song matching better are super welcomed!_
 

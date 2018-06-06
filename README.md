@@ -4,8 +4,7 @@
 
 > "The flow of time is always cruel: its speed seems different for each person, but no one can change it. A thing that does not change with time is a memory of younger days." -Sheik
 
-## Available Songs
-
+## Available Songs
 ### [Song of Storms](https://www.youtube.com/watch?v=KeIVybmTgWg&t=2s)
 ![](./public/images/Button-A.png)
 ![](./public/images/C-Down.png)
@@ -38,7 +37,7 @@
 ![](./public/images/Button-A.png)
 ![](./public/images/C-Down.png)
 
-### [Inverted Song of Time](https://www.youtube.com/watch?v=qoo_YBlEl6g)
+### [Inverted Song of Time](https://www.youtube.com/watch?v=qoo_YBlEl6g)
 ![](./public/images/C-Down.png)
 ![](./public/images/Button-A.png)
 ![](./public/images/C-Right.png)
@@ -46,7 +45,7 @@
 ![](./public/images/Button-A.png)
 ![](./public/images/C-Right.png)
 
-### [Song of Double Time](https://www.youtube.com/watch?v=bNvQv3u9ylE)
+### [Song of Double Time](https://www.youtube.com/watch?v=bNvQv3u9ylE)
 ![](./public/images/C-Right.png)
 ![](./public/images/C-Right.png)
 ![](./public/images/Button-A.png)
@@ -86,6 +85,13 @@
 ![](./public/images/C-Up.png)
 ![](./public/images/C-Right.png)
 
+## Running
+```
+npm install && npm start
+
+><}}*> npm install; and npm start
+```
+
 ## Contributing
 You can find Zelda songs and sound effects in sound banks like [this one](http://noproblo.dayjo.org/ZeldaSounds/).
 
@@ -102,9 +108,9 @@ You can find Zelda songs and sound effects in sound banks like [this one](http:/
 
 _PRs that solve the song matching better are super welcomed!_
 
-** Song matching caveat**: at this time, songs are limited to 6 keys. It's hardcoded at `playSong()` in `public/main.js`.
+**Song matching caveat**: at this time, songs are limited to 6 keys. It's hardcoded at `playSong()` in `public/main.js`.
 
-### Adding Instruments / Transformations
+### Adding Instruments / Transformations
 I thought of adding Link's transformations ([Zora](https://i.ytimg.com/vi/VSZqPV6lxsQ/hqdefault.jp), [Goron](https://vignette.wikia.nocookie.net/zelda/images/c/c9/Drums_of_Sleep.png/revision/latest?cb=20120405180821) and [Deku](https://i.ytimg.com/vi/QA3dhPwe9P8/hqdefault.jpg)) as "game modes" that you can change pressing a key. If you'd like to help with that, you'll need to:
 * Propose an UI for showing modes
 * Change `src/images/link.png` depending on the mode

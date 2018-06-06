@@ -122,9 +122,9 @@ I thought of adding Link's transformations ([Zora](https://i.ytimg.com/vi/VSZqPV
 ### "Deploying"
 Github Pages is configured to serve files from the `/docs` folder. It seems that it cannot be changed the source folder name, so you should follow these hacky steps before submitting a PR:
 ```
-npm run build && mv build docs
+npm run build && mv build docs && cp CNAME docs
 
-><}}*> npm run build; and mv build docs
+><}}*> npm run build; and mv build docs; and cp CNAME docs
 ```
 
 ## Credits

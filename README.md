@@ -69,7 +69,7 @@
 ![](./public/images/C-Left.png)
 ![](./public/images/C-Right.png)
 
-### [Sun's Song](https://www.youtube.com/watch?v=OM-GSC1oqnE)
+### [Sun's Song](https://www.youtube.com/watch?v=OM-GSC1oqnE)
 ![](./public/images/C-Right.png)
 ![](./public/images/C-Down.png)
 ![](./public/images/C-Up.png)
@@ -77,7 +77,7 @@
 ![](./public/images/C-Down.png)
 ![](./public/images/C-Up.png)
 
-### [Zelda's Lullaby](https://www.youtube.com/watch?v=UpfYSyiyf2U)
+### [Zelda's Lullaby](https://www.youtube.com/watch?v=UpfYSyiyf2U)
 ![](./public/images/C-Left.png)
 ![](./public/images/C-Up.png)
 ![](./public/images/C-Right.png)

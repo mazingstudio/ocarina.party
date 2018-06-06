@@ -1,10 +1,14 @@
-# Aniraco
+# Ocarina Party
 
 ![Link's Ocarina](./ocarina-icon.png)
 
 > "The flow of time is always cruel: its speed seems different for each person, but no one can change it. A thing that does not change with time is a memory of younger days." -Sheik
 
+## Preview
+![Link's Ocarina simulator preview](./src/images/preview.png)
+
 ## Available Songs
+
 ### [Song of Storms](https://www.youtube.com/watch?v=KeIVybmTgWg&t=2s)
 ![](./src/images/Button-A.png)
 ![](./src/images/C-Down.png)

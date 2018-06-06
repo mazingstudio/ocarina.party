@@ -1,4 +1,4 @@
-.PHONY: all
+.PHONY: all build
 
 all:
 	npm install && \
@@ -6,5 +6,6 @@ all:
 
 build:
 	npm run build && \
+	rm -rf docs && \
 	mv build docs && \
 	cp CNAME docs

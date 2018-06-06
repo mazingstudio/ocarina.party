@@ -5,7 +5,7 @@ export default class Footer extends Component {
   render() {
     return (
       <footer>
-        <p>Made with <span id="pixel-heart"></span> by <a href="https://mazing.studio/">Mazing Studio</a></p>
+        <p>Made with <span id="pixel-heart"></span> by <a target="_blank" href="https://mazing.studio/">Mazing Studio</a></p>
       </footer>
     )
   }

@@ -119,6 +119,14 @@ I thought of adding Link's transformations ([Zora](https://i.ytimg.com/vi/VSZqPV
   2. Add `.wav` files in a way similar to `src/sounds/ocarina`
   3. Change `Instrument`'s `name` value in `src/App.js` depending on the mode
 
+### "Deploying"
+Github Pages is configured to serve files from the `/docs` folder. It seems that it cannot be changed the source folder name, so you should follow these hacky steps before submitting a PR:
+```
+npm run build && mv build docs
+
+><}}*> npm run build; and mv build docs
+```
+
 ## Credits
 * Sound Effects: [Zelda Sounds by HTW](http://noproblo.dayjo.org/ZeldaSounds/)
 * Images: [The Internet](http://images.google.com/)
